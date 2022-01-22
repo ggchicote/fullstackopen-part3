@@ -1,0 +1,39 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": 3
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": 4
+    },
+    {
+      "name": "Gonzalo Garcia",
+      "number": "2214779223",
+      "id": 7
+    },
+    {
+      "name": "Juan Algorta",
+      "number": "12-32412-252",
+      "id": 8
+    },
+    {
+      "name": "Lucia Gandolfi",
+      "number": "45-1252-125412",
+      "id": 9
+    },
+    {
+      "name": "Manuel Olague",
+      "number": "124-25125-12",
+      "id": 10
+    }
+  ]
+}
