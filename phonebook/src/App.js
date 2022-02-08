@@ -43,7 +43,9 @@ const App = () => {
         handleMessage(`Updated ${newName}'s phone number`)
       })
       .catch(error => {
-        handleMessage(`Information of ${newName} has already been removed from server`,'error')
+        const message = error.response.data.error
+        return handleMessage(message,'error')
+        //handleMessage(`Information of ${newName} has already been removed from server`,'error')
       }) 
     
 
@@ -71,6 +73,10 @@ const App = () => {
           setPersons(persons.concat(data))
           initializeInputs()
           handleMessage(`Added ${newName}`)
+        })
+        .catch(error => {
+          const message = error.response.data.error
+          return handleMessage(message,'error')
         })
     }
   }
