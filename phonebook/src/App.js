@@ -5,6 +5,7 @@ import CPersons from './components/CPersons'
 import personService from './services/persons'
 import CNotification from './components/CNotification.js'
 import './index.css'
+
 const App = () => {
 
   const [persons, setPersons ] = useState([])

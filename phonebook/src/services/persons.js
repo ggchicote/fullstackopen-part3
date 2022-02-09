@@ -22,9 +22,11 @@ const deletePerson = id => {
     return request.then(response => response.data)
 }
 
-export default {
+const personService = {
     getAll,
     addPerson,
     update,
     deletePerson
 }
+
+export default personService
